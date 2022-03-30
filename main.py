@@ -15,7 +15,6 @@ def delta_pose(drive_width, left_velocity, right_velocity, time_step):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    delta_pose(30, 5, 6, .02)
-    delta_pose(30, 3, 8, .02)
-    delta_pose(30, 7, 9, .02)
-
+    print(delta_pose(30, 5, 6, .02))
+    print(delta_pose(30, 3, 8, .02))
+    print(delta_pose(30, 7, 9, .02))
